@@ -3,70 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mircea Cărtărescu - Viață și Opere</title>
+    <meta name="author" content="Grigore Rareș Eduard">
+    <meta name="description" content="Site dedicat lui Mircea Cărtărescu">
+    <title>Mircea Cărtărescu - Atestat</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Acasă</a></li>
-                <li><a href="biografie.html">Biografie</a></li>
-                <li><a href="opere.html">Opere</a></li>
-                <li><a href="stil-literar.html">Stilul Literar</a></li>
-                <li><a href="premii.html">Premii</a></li>
-                <li><a href="galerie.html">Galerie Foto</a></li>
-                <li><a href="resurse.html">Resurse</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
+        <div class="container">
             <h1>Mircea Cărtărescu</h1>
-            <p>Un univers literar de necuprins</p>
-            <p>Site realizat de Grigore Rares Eduard
-			<p>Clasa a XII-a B
-			
+            <nav>
+                <ul>
+                    <li><a href="#biografie">Biografie</a></li>
+                    <li><a href="#carti">Cărți</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ <section id="titlu">
+   <div class="container">
+    <h1>Site realizat de Grigore Rareș Eduard</h1>
+	<h2>Clasa a XII-a B</h2>
+	</div>
+</section>
+    <section id="biografie">
+        <div class="container">
+            <h2>Biografie</h2>
+            <p>Mircea Cărtărescu este unul dintre cei mai importanți scriitori contemporani români.
+			<p>Născut la 1 iunie 1956, la București, Cărtărescu a devenit cunoscut datorită stilului său literar unic, ce combină realitatea cu elemente fantastice.
+			<p> Printre cele mai cunoscute lucrări ale sale se numără „Orbitor” și „Solenoid”.
         </div>
     </section>
 
-    <!-- Descriere generală -->
-    <section id="introduction">
-        <h2>Despre Mircea Cărtărescu</h2>
-        <p>Mircea Cărtărescu este unul dintre cei mai importanți scriitori ai literaturii române contemporane. Prin operele sale, el a reușit să construiască lumi fascinante, unde realitatea și imaginația se împletesc într-un mod unic. Cărtărescu a explorat teme precum identitatea, memoria, visul și metamorfoza, fiind un autor cu un stil literar inconfundabil.</p>
-        <a href="biografie.html" class="btn">Citește Biografia</a>
+    <section id="carti">
+        <div class="container">
+            <h2>Cele mai celebre cărți ale sale</h2>
+            <div class="carti-list">
+                <div class="carte">
+                    <a href="orbitor.html"><img src="images/orbitor.jpg" alt="Orbitor"></a>
+                    <h3>Orbitor</h3>
+                    <p>Un roman în trei volume, considerat capodopera sa.</p>
+                </div>
+                <div class="carte">
+                    <img src="images/solenoid.jpg" alt="Solenoid">
+                    <h3>Solenoid</h3>
+                    <p>O lucrare filosofică ce explorează universul interior al naratorului.</p>
+                </div>
+                <div class="carte">
+                    <img src="images/why_love_women.jpg" alt="De ce iubim femeile">
+                    <h3>De ce iubim femeile</h3>
+                    <p>O colecție de eseuri și povestiri scurte.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Operele lui Cărtărescu -->
-    <section id="opere">
-        <h2>Operele sale</h2>
-        <p>Mircea Cărtărescu a publicat numeroase lucrări care au marcat literatura română. Printre cele mai celebre se numără <em>Orbitor</em>, <em>Solenoid</em> și <em>Nostalgia</em>. Aceste cărți au fost traduse în multiple limbi și au adus autorului recunoaștere internațională.</p>
-        <a href="opere.html" class="btn">Descoperă Operele</a>
-    </section>
-
-    <!-- Citaturi celebre -->
-    <section id="citaturi">
-        <h2>Citate Celebre</h2>
-        <blockquote>
-            <p>"Scrisul este o călătorie continuă spre noi înțelesuri, spre un sens ascuns al lumii." - Mircea Cărtărescu</p>
-        </blockquote>
-        <a href="stil-literar.html" class="btn">Afla mai multe despre stilul său</a>
-    </section>
-
-    <!-- Galerie Foto -->
     <section id="galerie">
-        <h2>Galerie Foto</h2>
-        <p>Descoperă imagini din viața și cariera lui Mircea Cărtărescu</p>
-        <a href="galerie.html" class="btn">Vezi Galerie</a>
+        <div class="container">
+            <h2>Galerie de imagini</h2>
+            <div class="gallery">
+                <img src="images/cartarescu1.jpg" alt="Mircea Cărtărescu 1">
+                <img src="images/cartarescu2.jpg" alt="Mircea Cărtărescu 2">
+                <img src="images/cartarescu3.jpg" alt="Mircea Cărtărescu 3">
+            </div>
+        </div>
     </section>
 
-    <!-- Footer -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Pentru mai multe informații sau întrebări, te rog să mă contactezi la <a href="mailto:grigore.rares.eduard@cnmvslobozia.ro">grigore.rares.eduard@cnmvslobozia.ro</a>.</p>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Mircea Cărtărescu - Toate drepturile rezervate</p>
+        <div class="container">
+            <p>&copy; 2025 - Site realizat pentru atestat.</p>
+        </div>
     </footer>
 </body>
 </html>
